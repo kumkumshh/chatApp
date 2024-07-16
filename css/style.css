@@ -1,0 +1,112 @@
+
+.heading {
+   display: flex;
+   justify-content: center;
+    margin: auto;
+    padding: 1.5rem;
+    color: #080063;
+    text-transform: uppercase;
+ 
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(#ffffff00, rgb(0, 2, 110));
+}
+
+.container {
+    max-height: auto;
+    max-width: 800px;
+    margin: auto;
+    height: 60vh;
+    border-radius: 2rem;
+    border: 2px solid black;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+
+    overflow-x: auto;
+
+
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.message {
+
+    width: auto;
+    max-width: 500px;
+    padding: 10px;
+    margin: 2px 2px;
+    border: 2px solid black;
+    border-radius: 25px;
+
+
+}
+
+.left {
+    border-top-left-radius: 0px;
+    background-color: rgb(209, 203, 203);
+    text-decoration-color: rgb(0, 0, 0);
+    float: left;
+    clear: both;
+
+}
+
+.right {
+    border-top-right-radius: 0px;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    text-decoration-color: rgb(255, 255, 255);
+    background-color: rgb(149, 152, 231);
+    float: right;
+    clear: both;
+}
+
+.center {
+    float: center;
+
+}
+
+#sendcontainer {
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    padding-bottom: 2rem;
+    width: 100%;
+
+}
+
+#messageInp {
+    bottom: 10px;
+    width: 85%;
+    max-width: 750px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    border: 2px solid rgb(4, 0, 65);
+    border-radius: 15px;
+    height: 34px;
+    background-color: rgb(111, 124, 187);
+
+}
+
+.btn {
+    color: white;
+    cursor: pointer;
+    min-width: 40px;
+    max-width: auto;
+    border: 2px solid white;
+    border-radius: 15px;
+    height: 45px;
+    background-color: rgb(20, 5, 90);
+}
